@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     babel({ presets: [reactCompilerPreset()] })
   ],
-  base: '/lang-podcast/'
+  base: '/Lang-Podcast/'
 })
