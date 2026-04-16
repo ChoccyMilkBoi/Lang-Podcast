@@ -12,7 +12,7 @@ const UpdTitle = () => {
   const getTitle = () => {
     switch (location.pathname) {
       case '/':
-        return 'Dashboard';
+        return 'Dashboard (Click on the Home Button to see the real dashboard)';
       case '/course1':
         return 'The Cave';
       case '/assignment1':
