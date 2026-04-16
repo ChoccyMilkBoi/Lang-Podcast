@@ -17,7 +17,7 @@ const Assignment1 = () => {
         <p>With the remaining 30 minutes of class, write a literary analysys essay about how the speakers 
             in the podcast convey their message about the qualities of education and how it affects students.</p>
             <br></br>
-        <p><b>Due at the end of class</b> but don't pay much mind to their arguments, since </p>
+        <p><b>Due at the end of class</b> but don't pay much mind to their arguments, since theres no need to change the banking system of education!</p>
       <br></br>
       <br></br>
 
