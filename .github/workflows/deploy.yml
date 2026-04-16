@@ -16,7 +16,8 @@ jobs:
       - name: Install and Build
         run: |
           npm install
-          npx tsc -b && npx vite build
+          chmod -R +x node_modules/.bin/
+          npm run build
 
       - name: Deploy to gh-pages
         run: |
