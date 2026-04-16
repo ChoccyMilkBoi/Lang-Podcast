@@ -1,7 +1,4 @@
-import { useNavigate } from 'react-router-dom';
-
 const Assignment1 = () => {
-  const navigate = useNavigate();
 
   const handleMarkComplete = () => {
     window.open('https://lamarconsolidated-my.sharepoint.com/personal/ae206496_students_lcisd_org/_layouts/15/stream.aspx?id=%2Fpersonal%2Fae206496_students_lcisd_org%2FDocuments%2FAttachments%2FEpisode%201-The%20Cave.mp4&ct=1776307700001&or=OWA-NT-Mail&cid=bcd4b55d-a6c6-6e5f-3443-86864f5577c5&ga=1&referrerScenario=AddressBarCopied.view.0a89f20d-4a55-46a1-960f-f475fe10135b&isDarkMode=true', '_blank');

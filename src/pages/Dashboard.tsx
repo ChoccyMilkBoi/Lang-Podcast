@@ -1,5 +1,4 @@
 import CourseCard  from "../components/CourseCard";
-import vinylLogo from '../assets/vinyl-logo.png';
 
 
 

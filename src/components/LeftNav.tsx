@@ -1,5 +1,4 @@
 import { Link, useLocation } from 'react-router-dom';
-import vinylLogo from '../assets/vinyl-logo.png';   // ← Import here
 
 const LeftNav = () => {
   const location = useLocation();
