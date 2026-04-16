@@ -10,15 +10,13 @@ permissions:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - uses: actions/checkout@v4
 
       - name: Install and Build
         run: |
           npm install
-          npm run build
+          npx tsc -b && npx vite build
 
       - name: Deploy to gh-pages
         run: |
