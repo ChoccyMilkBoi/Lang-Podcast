@@ -18,7 +18,7 @@ const UpdTitle = () => {
       case '/assignment1':
         return 'Assignment 1';
       default:
-        return 'Dashboard';
+        return 'Dashboard (Click on the Home Button to see the real dashboard)';
     }
   };
   return <h1 className="dash-text">{getTitle()}</h1>;
