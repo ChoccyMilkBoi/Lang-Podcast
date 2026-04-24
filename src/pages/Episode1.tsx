@@ -37,6 +37,18 @@ const Course1 = () => {
       </p>
       <br></br>
       <br></br>
+      <p>
+        The book Pedagogy of the Oppressed explores the ideas of how education works, thus the use of the unfamiliar word Pedagogy in the title, which is the study or craft of education. 
+        But more specifically, the book considers how differing methods in education create differences in the outcomes of students critical thinking skills.
+      </p>
+      <br></br>
+      <p>In this episode, we discuss the type of education system that most closely reflects that of the cave - the banking system of education as described by Freire. The banking system 
+        of education is reliant on simple memorization without room for greater dialogue, stifling critical thinking. This system of education also unnecessarily creates a hierarchy amongst 
+        students and educators, leading to students being conditioned to existing in a hierarchical system that does not do nearly enough to lend them power over their actions and thoughts.
+      </p>
+
+      <br></br>
+      <br></br>
 
       <h2>Andreia Da Silva Ekburg</h2>
       <p>Producer, editor, cameraperson, and outline writer for the videos in this course!</p>
