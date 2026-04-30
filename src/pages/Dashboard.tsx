@@ -12,8 +12,14 @@ const Dashboard = () => {
           term="2025-2026"
           color="#5f0f4e"
         />
-        
-        {/* Add more cards as needed */}
+        <CourseCard 
+          title="Episode 2"
+          subtitle="AP Podcasting - Settle"
+          courseCode="AP Podcasting"
+          term="2025-2026"
+          color="#04812e"
+        />
+        {}
       </div>
   );
 };

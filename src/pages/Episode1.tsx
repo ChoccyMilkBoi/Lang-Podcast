@@ -58,12 +58,19 @@ const Course1 = () => {
       <br></br>
       <br></br>
 
-
+      <div className='button-holder'>
       <button  className="start-assignment-btn"
         onClick={() => navigate('/assignment1')}
         >
         Start Assignment 1 →
       </button>
+      <button  className="start-assignment-btn"
+        onClick={() => navigate('/course2')}
+        >
+        Go To Assignment #2 →
+      </button>
+
+      </div>
     </div>
   );
 };

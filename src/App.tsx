@@ -5,6 +5,7 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import Dashboard from './pages/Dashboard';
 import Course1 from './pages/Episode1';
 import Assignment1 from './pages/Assignment1';
+// import Course2 from './pages/Epsisode2';
 
 const UpdTitle = () => {
   const location = useLocation();
