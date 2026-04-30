@@ -351,6 +351,7 @@
 .start-assignment-btn {
   display: inline-block;
   padding: 16px 32px;
+  margin-right: 20px;
   font-size: 18px;
   font-weight: bold;
   background-color: #0055A5;

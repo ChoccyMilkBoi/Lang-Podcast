@@ -4,8 +4,9 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 // Pages
 import Dashboard from './pages/Dashboard';
 import Course1 from './pages/Episode1';
+import Course2 from './pages/Episode2';
 import Assignment1 from './pages/Assignment1';
-// import Course2 from './pages/Epsisode2';
+import Assignment2 from './pages/Assignment2';
 
 const UpdTitle = () => {
   const location = useLocation();
@@ -16,8 +17,12 @@ const UpdTitle = () => {
         return 'Dashboard (Click on the Home Button to see the real dashboard)';
       case '/course1':
         return 'The Cave';
+      case '/course2':
+        return 'The Sun';
       case '/assignment1':
         return 'Assignment 1';
+      case '/assignment2':
+        return 'Assignment 2';
       default:
         return 'Dashboard (Click on the Home Button to see the real dashboard)';
     }
@@ -41,6 +46,8 @@ function App() {
             <Route path="/" element={<Dashboard />} />
             <Route path="/course1" element={<Course1 />} />
             <Route path="/assignment1" element={<Assignment1 />} />
+            <Route path="/course2" element={<Course2 />} />
+            <Route path="/assignment2" element={<Assignment2 />} />
           </Routes>
         </div>
       </div>

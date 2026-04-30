@@ -31,8 +31,16 @@ const LeftNav = () => {
           📝
         </Link>
 
-        <Link to="#" className="nav-item" title="Calendar">📅</Link>
-        <Link to="#" className="nav-item" title="Inbox">✉️</Link>
+        <Link 
+          to="/course2" 
+          className={`nav-item ${location.pathname === '/course2' ? 'active' : ''}`}
+          title="Course 1"
+        >📅</Link>
+        <Link 
+          to="/assignment2" 
+          className={`nav-item ${location.pathname === '/assignment2' ? 'active' : ''}`}
+          title="Course 1"
+        >✉️</Link>
         <Link to="#" className="nav-item" title="History">⏰</Link>
         <Link to="#" className="nav-item" title="Search">🔍</Link>
       </nav>
