@@ -80,7 +80,7 @@ const Course2 = () => {
                     <button  className="start-assignment-btn"
                         onClick={() => navigate('/assignment2')}
                         >
-                        Start Assignment 1 →
+                        Start Assignment 2 →
                     </button>
                     <button  className="start-assignment-btn"
                         onClick={() => navigate('/course1')}
